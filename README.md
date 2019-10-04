@@ -3,9 +3,9 @@
 **Software Testing** is the process of identifying the *correctness* and *quality* of software program. In other words, testing is executing a system or application in order to find software *bugs*, *defects* or *errors*. The purpose is to check whether the software satisfies the specific requirements, needs and expectations of the customer.
 
 ## Ways of Testing
-**[Software Testing]()**: Process to find out bugs and issues in the system/application. 
+**[Software Testing](docs/software-testing.md)**: Process to find out bugs and issues in the system/application. 
 
-**[Manual Testing]()**: Test Cases executed manually.
+**[Manual Testing](docs/manual-testing.md)**: Test Cases executed manually.
 
 **[Automation Testing]()**: Testing performed with the help of automation tools.
 
