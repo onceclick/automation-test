@@ -2,7 +2,7 @@
 
 **Software Development Life Cycle** is a systematic approach to develop software. The purpose of SDLC process is producing a product with efficient cost and high quality.
 
-## Different Stages of Software Development Life Cycle
+## 1. Different Stages of Software Development Life Cycle
 
 ![Software Development Life Cycle](../images/Software-Development-Life-Cycle.png)
 
@@ -45,8 +45,8 @@ Once the Product is tested and ready to deploy, it is released to consumers to u
 - This process where the care is taken for the developed product is known as Maintenance. 
 - The software is maintained timely by updating the code according to the changes taking place in user end environment or technology.
 
-## Different types of Software Development Life Cycle
-### Waterfall Model 
+## 2. Different types of Software Development Life Cycle
+### 2.1. Waterfall Model 
 The whole process of software development is divided into separate phases. Each phase must be completed before the next phase can begin and there is no overlapping in the phases.
 
 #### Advantages of the Waterfall Model
@@ -60,7 +60,7 @@ The whole process of software development is divided into separate phases. Each 
 - Not a good model for complex and object-oriented projects.
 - Not suitable for the projects where requirements are at a moderate to high risk of changing.
 
-### Iterative/Incremental Model
+### 2.2. Iterative/Incremental Model
 Iterative development is a way of breaking down the software development of a large application into smaller chunks. In iterative development, feature code is designed, developed and tested in repeated cycles. Making the life cycle a "multi-waterfall" cycle.
 
 #### Advantages of the Iterative Model
@@ -74,7 +74,7 @@ Iterative development is a way of breaking down the software development of a la
 - Needs a clear and complete definition of the whole system before it can be broken down and built incrementally,
 - Total cost is higher than waterfall.
 
-### Spiral Model
+### 2.3. Spiral Model
 Spiral model is a combination of iterative development process model and  waterfall model with very high emphasis on risk analysis. It allows for incremental releases of the product, or incremental refinement through each iteration around the spiral.
 
 #### Phases of Spiral Model
@@ -102,7 +102,7 @@ Spiral model is a combination of iterative development process model and  waterf
 - If requirements are more complicated.
 - If frequent changes required in the project.
 
-### V-Model
+### 2.4. V-Model
 It is also known as Verification and Validation Model. Extension of the waterfall model. Instead of moving down in a linear way, the process steps are bent upwards after the coding phase, to form the typical V shape. 
 
 #### Phases of V-model (*Verification*)
@@ -130,10 +130,10 @@ It is also known as Verification and Validation Model. Extension of the waterfal
 - Software is developed during the implementation phase, so no early prototypes of the software are produced.
 - Not suitable for the projects where requirements are at a moderate to high risk of changing.
 
-### Big Bang Model
+### 2.5. Big Bang Model
 The Big Bang model is SDLC model where we do not follow any specific process. The development just starts with the required money and efforts as the input, and the output is the software developed which may or may not be as per customer requirement.
 
-### Rapid Application Development (RAD) Model
+### 2.6. Rapid Application Development (RAD) Model
 It is a type of Incremental Model. RAD is a software development method that uses minimal planning in favor of rapid prototyping. The functional modules are developed simultaneously as prototypes and are integrated to make the complete product for faster product delivery. The customer gets early visibility in the software and can provide feedback on design, delivery, and other requirements. 
 
 #### Phases of RAD Model
@@ -155,7 +155,7 @@ It is a type of Incremental Model. RAD is a software development method that use
 - Requires highly skilled developers/designers.
 - It cannot be used for cheaper projects as cost of modeling and automated code generation may be very high.
 
-### Prototype Model 
+### 2.7. Prototype Model 
 The basic idea here is that instead of freezing the requirements before a design or coding can proceed, a throwaway prototype is built to understand the requirements. This prototype is developed based on the currently known requirements. 
 
 #### Advantages of Prototype Model
