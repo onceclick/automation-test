@@ -10,7 +10,7 @@
 **[Automation Testing]()**: Testing performed with the help of automation tools.
 
 ## Test Artifacts
-**[Test Basis]()**: It is the information needed in order to start the test analysis and create our Test Cases. 
+**[Test Basis](docs/test-basis.md)**: It is the information needed in order to start the test analysis and create our Test Cases. 
 
 **[Test Case Specification]()**: A document described detailed summary of what scenarios will be tested, how they will be tested, how often they will be tested. 
 
