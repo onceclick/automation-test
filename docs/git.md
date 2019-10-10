@@ -141,4 +141,8 @@ git log --all --graph --oneline     # Visual all commits
 
 ![](../images/git-10.jpg)
 
-After you change you code. Repeat step 2 to create more commits for your project.
+After you change you code. Create more commits as the second one.
+
+#### 5. View your commit history using IntelliJ
+
+![](../images/git-11.jpg)
