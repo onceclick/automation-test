@@ -146,3 +146,56 @@ After you change you code. Create more commits as the second one.
 #### 5. View your commit history using IntelliJ
 
 ![](../images/git-11.jpg)
+
+#### 6. Checkout a commit to a new branch
+Make sure we have nothing to commit:
+``` bash
+git status                              # Check current status
+```
+
+If we have changed code, use this command to temporarily save:
+ ``` bash
+git stash                               # Store changed code to use later
+```
+
+#### 6.1 Checkout current commit to a new branch
+``` bash
+git checkout -b 'Branch-with-readme'    # Checkout current commit to a new branch
+git status                              # Check current status
+git branch                              # List branches
+```
+![](../images/git-12.jpg)
+
+#### 6.2 Checkout a specific commit to a new branch
+We will checkout to commit before we create readme.md
+``` bash
+git log --all --graph --oneline                     # Visual all commits
+git checkout -b 'Branch-without-readme' 975e911     # Checkout 975e911 commit to a new branch
+git branch                                          # List branches
+git log --all --graph --oneline                     # Visual all commits
+```
+![](../images/git-13.jpg)
+Check if you see the readme.md file?
+
+#### 7. Checkout to an existing branch
+We will checkout back to branch `Branch-with-readme`
+``` bash
+git branch                                          # List branches
+git checkout 'Branch-with-readme'                   # Checkout to 'Branch-with-readme' branch
+git log --all --graph --oneline                     # Visual all commits
+```
+![](../images/git-14.jpg)
+Check if you see the readme.md file?
+
+#### 8. Delete a local branch
+``` bash
+git branch                                          # List branches
+git branch -d 'Branch-without-readme'               # Delete  'Branch-without-readme' branch
+git branch                                          # List branches
+```
+![](../images/git-15.jpg)
+
+#### 9. Create account on Github & Bitbucket
+Github and Bitbucket are best free Repository to save your code. Create your account on both these service:
+- **Github**: https://github.com/
+- **Bitbucket**: https://bitbucket.org/
