@@ -197,5 +197,5 @@ git branch                                          # List branches
 
 #### 9. Create account on Github & Bitbucket
 Github and Bitbucket are best free Repository to save your code. Create your account on both these service:
-- **Github**: https://github.com/
-- **Bitbucket**: https://bitbucket.org/
+- **Github**: [https://github.com/](https://github.com/)
+- **Bitbucket**: [https://bitbucket.org/](https://bitbucket.org/)
